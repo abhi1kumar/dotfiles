@@ -1,10 +1,37 @@
 {
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.remotePlatform": {
+        "cvl": "linux",
+    },
     // Automatically format using Black on save.
     "editor.formatOnSave": true,
     // Draw a ruler at Black's column width.
     "editor.rulers": [
         100,
     ],
+    // Debug nofocus
+    "debug.focusWindowOnBreak": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    // Theme settings
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "material-icon-theme",
+    // Outline settings
+    "outline.showVariables": false,
+    "outline.showBooleans": false,
+    "outline.showArrays": false,
+    "outline.showConstants": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    // Python settings
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": false,
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
     // Hide non-code files.
     "files.exclude": {
         "**/.git": true,
@@ -15,10 +42,6 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true,
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "debug.focusWindowOnBreak": false,
     "files.watcherExclude": {
         "**/.git/**": true,
         "**/datasets": true,
