@@ -31,7 +31,7 @@
         "editor.defaultColorDecorators": false,
         "editor.wordBasedSuggestions": false,
         "editor.defaultFormatter": "ms-python.black-formatter"
-    }
+    },
     // Hide non-code files.
     "files.exclude": {
         "**/.git": true,
