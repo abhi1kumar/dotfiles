@@ -20,7 +20,10 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# WandB and HF setup
 export WANDB_API_KEY=xxx
+export HF_HOME=/group-volume/datasets/
+export HF_TOKEN=xxx
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
