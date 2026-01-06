@@ -51,3 +51,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+conda activate gsplat
+cd ~/project/gsplat
